@@ -1,4 +1,6 @@
-/*-------------------- General Reset --------------------*/
+/* ========================================
+   GLOBAL VARIABLES & RESET
+   ======================================== */
 * {
     margin: 0;
     padding: 0;
@@ -10,78 +12,161 @@ body {
     line-height: 1.6;
     background-color: #f9f9f9;
     transition: background-color 0.3s ease;
+}
 
-    /*-------------------- Top Navigation Bar --------------------*/
-.topnav {
-    background-color: #40E0D0;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
+/* ========================================
+   NAVIGATION
+   ======================================== */
+
+
+
+
+
+/* ========================================
+   HEADINGS
+   ========================================*/
+
+/* ========================================
+   HERO SECTION
+   ======================================== */
+
+.hero {
+    position: relative;
+    height: 200vh;
+}
+
+.hero h1 {
+    /* hero heading */
+}
+
+.hero p {
+    /* hero description */
+}
+
+.hero-image {
     position: sticky;
     top: 0;
-    z-index: 10;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.topnav .logo {
-    background-image: url('Images/logo.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 70px;
-    height: 70px;
-}
-
-.topnav ul {
-    list-style: none;
+    height: 100vh;
     display: flex;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.8s ease;
 }
 
-.topnav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+.image-one {
+    opacity: 1
+      background-image: url('https://micah1001.github.io/Lionel-Messi/Media/Backgrounds/Header-Background.jpeg');
 }
 
-.topnav ul li a:hover,
-.topnav ul li a.active {
-    background-color: #33b2a0;
+.image-two {
+    opacity: 1
 }
 
-.menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 1.8rem;
-    cursor: pointer;
-}
 
-/* Responsive Navigation */
-@media (max-width: 768px) {
-    .topnav ul {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background-color: #40E0D0;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        padding: 10px 0;
-    }
+/* ========================================
+   GENERAL ELEMENTS
+   ======================================== */
 
-    .topnav ul.visible {
-        display: flex;
-    }
 
-    .menu-toggle {
-        display: block;
-    }
-}
+
+
+/* ========================================
+   GENERAL IMAGES
+   ======================================== */
+
+
+
+
+/* ========================================
+   SLIDESHOW
+   ======================================== */
+
+
+
+
+
+/* ========================================
+   SLIDESHOW TEXT
+   ======================================== */
+
+
+
+/* ========================================
+   PAGE CONTAINERS
+   ======================================== */
+
+
+/* ========================================
+   PRELOADER
+   ======================================== */
+
+
+/* ========================================
+   PRELOADER ANIMATION
+   ======================================== */
+
+
+/* ========================================
+   HOME PAGE
+   ======================================== */
+
+
+/* ========================================
+   HOME PAGE IMAGES
+   ======================================== */
+
+
+/* ========================================
+   CLUB CAREER PAGE
+   ======================================== */
+
+
+/* ========================================
+   INTERNATIONAL CAREER PAGE
+   ======================================== */
+
+
+/* ========================================
+   STATS PAGE
+   ======================================== */
+
+
+/* ========================================
+   VIDEO
+   ======================================== */
+
+
+/* ========================================
+   STATS TABLE
+   ======================================== */
+
+
+/* ========================================
+   PAGE NAVIGATION
+   ======================================== */
+
+
+/* ========================================
+   CONTACT PAGE
+   ======================================== */
+
+
+/* ========================================
+   CONTACT FORM
+   ======================================== */
+
+
+/* ========================================
+   FAQ PAGE
+   ======================================== */
+
+
+/* ========================================
+   FAQ QUESTIONS & ANSWERS
+   ======================================== */
+
+
+/* ========================================
+   MOBILE / RESPONSIVE DESIGN
+   ======================================== */

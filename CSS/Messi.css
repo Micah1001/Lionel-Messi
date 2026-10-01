@@ -1,17 +1,19 @@
 /* ========================================
    GLOBAL VARIABLES & RESET
    ======================================== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    transition: background-color 0.3s ease;
+:root {
+  --goldenrod-color: goldenrod;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+}
+html {
+  font-family: Verdana,Geneva,Tahoma,sans-serif
 }
 
 /* ========================================
@@ -23,8 +25,22 @@ body {
 
 
 /* ========================================
-   HEADINGS
+   HEADERS
    ========================================*/
+
+.home-page-header {
+  text-align: center;
+  background-image: url('https://micah1001.github.io/Cristiano-Ronaldo/Media/Backgrounds/Header-Background.jpeg');
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  margin: auto;
+  transition: box-shadow .3s ease;
+  border-radius: 10px;
+  box-shadow: 0 0 15px gold;
+}
 
 /* ========================================
    HERO SECTION
@@ -43,25 +59,7 @@ body {
     /* hero description */
 }
 
-.hero-image {
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.8s ease;
-}
 
-.image-one {
-    opacity: 1
-      background-image: url('https://micah1001.github.io/Lionel-Messi/Media/Backgrounds/Header-Background.jpeg');
-}
-
-.image-two {
-    opacity: 1
-}
 
 
 /* ========================================
@@ -73,21 +71,6 @@ body {
 
 /* ========================================
    GENERAL IMAGES
-   ======================================== */
-
-
-
-
-/* ========================================
-   SLIDESHOW
-   ======================================== */
-
-
-
-
-
-/* ========================================
-   SLIDESHOW TEXT
    ======================================== */
 
 
@@ -111,9 +94,50 @@ body {
    HOME PAGE
    ======================================== */
 
+.home-page-body{
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 
 /* ========================================
-   HOME PAGE IMAGES
+   HOME PAGE MEDIA
+   ======================================== */
+
+.hero-image {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.image-one {
+    opacity: 1;
+    background: url('https://micah1001.github.io/Lionel-Messi/Media/Backgrounds/Hero1video.mp4');
+}
+
+.image-two {
+    opacity: 1;
+}
+
+
+
+/* ========================================
+   SLIDESHOW
+   ======================================== */
+
+
+
+
+
+/* ========================================
+   SLIDESHOW TEXT
    ======================================== */
 
 

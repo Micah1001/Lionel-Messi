@@ -94,8 +94,8 @@ html {
    HOME PAGE
    ======================================== */
 
-.home-page-body{
-    background-color: #000;
+.content{
+    background-image: url('/workspaces/Lionel-Messi/Media/Backgrounds/home-page-background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
